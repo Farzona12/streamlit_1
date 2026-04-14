@@ -10,6 +10,22 @@ from sklearn.ensemble import RandomForestRegressor  # модель случай�
 # ---------------------------
 st.set_page_config(page_title="🏠 House Price AI", layout="wide")  # настройка страницы приложения
 
+st.markdown("""
+<style>
+.big-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ff4b4b;
+}
+.metric-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.title("🏠 AI House Price Predictor")  # заголовок приложения
 st.markdown("### Smart real estate valuation powered by Machine Learning")  # подзаголовок
 
